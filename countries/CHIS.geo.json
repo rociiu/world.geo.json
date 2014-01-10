@@ -3,10 +3,13 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "id": "CHIS",
+      "properties": {
+        "name": "Channel Islands"
+      },
       "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+        "type": "MultiPolygon",
+        "coordinates": [[
           [
             [
               -2.242584228515625,
@@ -181,15 +184,8 @@
               49.238224197700525
             ]
           ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+        ],
+        [
           [
             [
               -2.4578475952148438,
@@ -252,15 +248,8 @@
               49.47994776163928
             ]
           ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+        ],
+        [
           [
             [
               -2.465486526489258,
@@ -287,15 +276,8 @@
               49.46232272091103
             ]
           ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+        ],
+        [
           [
             [
               -2.379226684570312,
@@ -370,15 +352,8 @@
               49.43241258024849
             ]
           ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+        ],
+        [
           [
             [
               -2.3927879333496094,
@@ -429,15 +404,8 @@
               49.43414295496449
             ]
           ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+        ],
+        [
           [
             [
               -2.6705360412597656,
@@ -496,15 +464,8 @@
               49.463047926779375
             ]
           ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+        ],
+        [
           [
             [
               -2.6759862899780273,
@@ -543,7 +504,7 @@
               49.46106753154381
             ]
           ]
-        ]
+        ]]
       }
     }
   ]
