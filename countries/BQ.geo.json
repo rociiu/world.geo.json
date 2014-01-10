@@ -3,10 +3,13 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "id": "BQ",
+      "properties": {
+        "name": "Caribbean Netherlands"
+      },
       "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+        "type": "MultiPolygon",
+        "coordinates": [[
           [
             [
               -68.41255187988281,
@@ -189,15 +192,8 @@
               12.268218379062503
             ]
           ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+        ],
+        [
           [
             [
               -68.32740783691406,
@@ -232,7 +228,7 @@
               12.150102157442639
             ]
           ]
-        ]
+        ]]
       }
     }
   ]
