@@ -8,8 +8,8 @@
         "name": "Cook Islands"
       },
       "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+        "type": "MultiPolygon",
+        "coordinates": [[
           [
             [
               -68.41461181640625,
@@ -132,15 +132,8 @@
               12.273586044299293
             ]
           ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+        ],
+        [
           [
             [
               -68.33015441894531,
@@ -171,15 +164,8 @@
               12.151444682752237
             ]
           ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
+        ],
+        [
           [
             [
               -159.81605529785153,
@@ -230,7 +216,7 @@
               -21.200416982780084
             ]
           ]
-        ]
+        ]]
       }
     }
   ]
